@@ -1019,7 +1019,7 @@ end
 function Library:PlayIntro(config)
     config = config or {}
     local Theme = Library.Theme
-    local logoImage = config.Image or "rbxassetid://0"
+    local logoImage = config.Image or "rbxassetid://86138979087018"
     local titleText = config.Text or "Hex Scripts"
     local onComplete = config.OnComplete
 
