@@ -36,7 +36,7 @@ local Window = Library:CreateWindow({
 ## `Window:CreateTab(name, icon)`
 
 Adds an icon to the sidebar rail and a page to the content area. Returns a
-`Tab` object. Returns to the first tab created being selected by default.
+`Tab` object. The first tab created is selected by default.
 
 | Param | Type | Description |
 |---|---|---|

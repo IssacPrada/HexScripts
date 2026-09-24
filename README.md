@@ -10,13 +10,13 @@ animations, and UI sounds throughout.
 
 | File | Description |
 |---|---|
-| [`UILibrary.lua`](../UILibrary.lua) | The library itself. Load it with `loadstring`. See [UILibrary.md](./UILibrary.md) for the full API reference. |
-| [`Example.lua`](../Example.lua) | A complete working example wiring up the intro, key system, Home tab, Main tab, and Settings tab. See [Example.md](./Example.md). |
+| [`UILibrary.lua`](./UILibrary.lua) | The library itself. Load it with `loadstring`. See [UILibrary.md](./UILibrary.md) for the full API reference. |
+| [`Example.lua`](./Example.lua) | A complete working example wiring up the intro, key system, Home tab, Main tab, and Settings tab. See [Example.md](./Example.md). |
 
 ## Quick Start
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/<you>/<repo>/main/UILibrary.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/IssacPrada/HexScripts/main/UILibrary.lua"))()
 
 local Window = Library:CreateWindow({
     Title = "Hex Scripts",
@@ -49,10 +49,10 @@ Library:CreateSettingsTab(Window)
 - **[Example.md](./Example.md)** — walkthrough of the example script and the
   recommended load order (Intro → Key System → Window).
 
-This `docs/` folder is written in plain Markdown so it can be published as-is
-with GitBook (GitBook can sync directly from a GitHub repo/branch) — once
-you've got the repo up, share it and we can wire up the GitBook sync and
-sidebar/nav structure next.
+These docs are plain Markdown at the repo root, so they can be published
+as-is with GitBook (GitBook can sync directly from a GitHub repo/branch).
+Next step there: connect this repo in GitBook and set up the sidebar/nav
+to point at UILibrary.md and Example.md.
 
 ## Notes & Limitations
 
