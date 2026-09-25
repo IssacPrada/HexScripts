@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Hex Scripts
+  structure:
+    - type: space
+      key: hex-scripts-docs
+      title: Hex Scripts
+      path: /
+      default: true
+      content:
+        directory: ./
